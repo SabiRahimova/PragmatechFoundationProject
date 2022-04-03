@@ -1,7 +1,21 @@
 .city{
     color: blue;
+    display: flex;
+    float:right
+
 }
 img {
-    border-radius: 8%;
+    border-radius: 6%;
 
+}
+.p1{
+
+    margin: 0.5cm ;
+    margin-left: 1cm;
+
+}
+.p2 {
+
+    padding-left: 25px;
+    
 }
