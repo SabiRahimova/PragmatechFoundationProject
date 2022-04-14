@@ -73,13 +73,14 @@ span{
 }
 /* box-menu-main  style  */
 
-.box-menu-main li a{
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 15px;
-   
-}
+
+    .box-menu-main li a{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px;
+       
+    }
    
 .underline:hover{
     padding-bottom: 10px;
@@ -91,7 +92,8 @@ span{
    }
 
 .underline{
-    transition: border;
+  
+ transition: border;
   transition-delay: 0.5s;
   transition-timing-function: ease-in;
   
@@ -105,8 +107,10 @@ span{
     padding: 10px;
   }
       
-  
-    
+ .box-menu-social i:hover{
+     font-size: 25px;
+   
+ }
     
 
     
