@@ -1,0 +1,39 @@
+
+/* first    */
+
+html {
+
+    background: red;
+    border-bottom-width: 66px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+   border-color:green;
+   
+   
+    
+  }
+  
+  body  {
+    border-top: 66px  solid blue;
+    margin:0px;
+  }
+    
+/* second   */
+
+
+  div {
+    background: red;
+      border-bottom-width: 55px;
+      padding-bottom: 60px;
+      border-bottom-style: solid;
+     border-color:green;
+    
+  }
+  
+  body  {
+      border-top: 50px  solid blue;
+      margin:0px;
+    }
+
+
+    
