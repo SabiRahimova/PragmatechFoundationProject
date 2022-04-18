@@ -224,18 +224,18 @@ font-size: 20px;
     margin-left: 350px
 
 }
-.about, .know-me {
+.head, .header{
     color: black;
     margin: 0px;
 }
 
-.about{
+.head{
     margin-left: 130px;
     background: #f5df4d;
     text-transform: capitalize;
 }
 
-.know-me{
+.header{
 font-weight: 600;
 
 }
@@ -292,7 +292,7 @@ p3{
 
 .main-nav-about{
 
-    width: 70%;
+    width: 65%;
     height: 250px;
 }
 
@@ -305,6 +305,7 @@ h3{
 p2{
     font-size: larger;
     font-weight: 400;
+    
 }
 
 .main-nav-about strong{
