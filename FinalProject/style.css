@@ -1,60 +1,3 @@
-.border-red{
-  border: 1px solid red;
-}
-
-.border-blue{
-border: 1px solid blue;
-}
-
-.border-green{
-    border: 1px solid green;
-}
-
-.border-purple{
- border: 1px solid purple;
-}
-.border-black{
-    border: 1px solid black;
-}
-
-.flex{
-    display: flex;
-}
-
-.cursor-pointer{
-    cursor: pointer;
-}
-.justify-content-space-between{
-    justify-content: space-between;
-}
-
-.head{
-    
-margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    width: 150px;
-    background: #f5df4d;
-    text-transform: capitalize; 
-    color: black;
-}
-
-
-.header{
-font-weight: 600;
-color: black;
-margin: 0px;
-font-size: xx-large;
-display: flex;
-justify-content: center;
-     
-}
-
-.main-measure{
-    width: 1349px;
-    height: 700px;
-
-}
 
 
 body{
@@ -84,7 +27,7 @@ body{
     padding: 0px 10px;
    
 }
-span{
+.box-name span{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
@@ -187,7 +130,7 @@ h2{
     text-transform: uppercase;
 }
 
-p{
+.container-base p{
     color: aliceblue;
     font-weight: 400;
     font-size: large;
@@ -398,3 +341,130 @@ width: 50%;
     font-weight: 600;
     text-transform: capitalize;
 }
+
+/*  fifth section style */
+
+.resume{
+    height: 1400px;
+
+}
+
+.resume-container{
+
+
+
+}
+
+.resume-content{
+    width: 1050px;
+    height: 900px;
+    margin: 0px auto;
+
+
+    
+}
+
+.education-column, .experience-column{
+    width: calc(100%/2);
+    margin-top: 40px;
+    height: 700px;
+    border-left: 2px solid #e7bc11;
+    padding-left: 15px;
+}
+
+.education-column, .experience-column h4{
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.education-column {
+    margin-right: 80px;
+}
+
+.edu-row :nth-child(1) {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 0px;
+}
+   
+.edu-row :nth-child(2) {
+font-weight: 400;
+font-size: medium;
+
+
+}
+
+.edu-row :nth-child(3) {
+    font-size: 17px;
+    color: gray;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.progress-bar{
+   
+    margin: 0px 142px;
+    margin-top: -76px;
+}
+
+.progress-bar :nth-child(1) {
+    margin-right: 60px;
+    
+}
+
+.progress-item{
+    width: calc(100%/2);
+    height: 280px;
+    font-weight: 500;
+}
+
+.item-detail{
+    width: 520px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 16px;
+    box-sizing: inherit;
+
+}
+
+.round{
+    border-radius: 16px;
+    background-color: #f5df4d;
+    box-sizing: inherit;
+    height: 10px;
+
+}
+   
+.progress-item p{
+   
+    margin-right: 20px;
+
+}
+.progress-item h{
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.block{
+    height: 90px;
+   
+}
+
+.block-button{
+    width: 180px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.block-button button{
+    width: inherit;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.block-button  :hover{
+    background-color: black;
+    color: white;
+    transition: background-color 1s ease;
+}
+/* fifth section completed */

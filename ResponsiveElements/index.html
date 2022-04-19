@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      h5,p{
+        margin:0px;
+        padding:0px;
+        font-family:Tahoma;
+        font-size:14px;
+        font-weight:normal;
+        }
+    .main{
+        width:1200px;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    
+    }
+    .main-title,.main-content{
+        padding:10px 30px;
+        border:1px solid gray;
+    }
+
+
+ @media (max-width:576px) {
+     .main {
+         display: block;
+     }
+ }
+
+ @media (min-width:576px) and (max-width:992px) {
+     .main{
+     display: flex;
+     justify-content: space-between
+     }
+ }
+
+ @media (min-width:992px) {
+     .main-title{
+         width:calc(100%/2);
+     }
+     .main-content {
+         width: calc(100%/2);
+     }
+ }
+
+
+</style>
+</head>
+<body>
+  <div class="main">
+  <div class="main-title">
+    <p>This is main title</p>
+  </div>
+  <div class="main-content">
+    <p>This is main content</p>
+  </div>
+</div>
+</body>
+</html>
