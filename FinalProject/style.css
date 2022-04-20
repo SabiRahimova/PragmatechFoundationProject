@@ -644,3 +644,45 @@ font-size: medium;
     border: 0px;
      background-color: #f5df4d;
 }
+
+/* responsive elements*/
+
+@media (min-width:576px) and (max-width:992px){
+    .progress-bar {
+        flex-direction: column;
+    }
+    .portfolio {
+        margin-top: 400px;
+    }
+
+    .project-intro .project-menu{
+        justify-content: flex-start;
+    }
+
+    .project-intro {
+        width: 500px;
+    }
+
+    .project-menu {
+        width:calc((100%/12)*12);
+    }
+
+   .portfolio-container .main-header {
+       margin: 0px;
+    
+   }
+
+   .portfolio-container .main-header .header{
+       font-size: 20px;
+   }
+   .project-content {
+    width: calc((100%/12)*6);
+   }
+
+
+
+
+
+
+
+}
