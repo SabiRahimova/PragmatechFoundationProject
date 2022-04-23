@@ -477,7 +477,7 @@ font-size: medium;
 
 
 .portfolio {
-    height: 1500px;
+    height: 1650px;
 }
 
 
@@ -545,7 +545,7 @@ font-size: medium;
     opacity: 0;
     top: 0;
     left: 0;
-    transition: all .0.1s ease;
+    transition: all .1s ease;
     
 }
 
@@ -645,44 +645,261 @@ font-size: medium;
      background-color: #f5df4d;
 }
 
-/* responsive elements*/
 
-@media (min-width:576px) and (max-width:992px){
-    .progress-bar {
-        flex-direction: column;
-    }
-    .portfolio {
-        margin-top: 400px;
-    }
 
-    .project-intro .project-menu{
-        justify-content: flex-start;
-    }
+.faq{
+    height: 1000px;
+}
 
-    .project-intro {
-        width: 500px;
-    }
+.faq-container{
+    height: 900px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
-    .project-menu {
-        width:calc((100%/12)*12);
-    }
 
-   .portfolio-container .main-header {
-       margin: 0px;
-    
-   }
-
-   .portfolio-container .main-header .header{
-       font-size: 20px;
-   }
-   .project-content {
+.faq-content{
+    height: 800px;
     width: calc((100%/12)*6);
-   }
+    margin-right: 80px;
+}
+
+.faq-content .faq-header{
+    width: calc((100%/12)*12);
+}
+
+.faq-header p {
+    display:flex;
+    justify-content: center;
+    width: 64px;
+    background-color: #f5df4d;
+    color: black;
+}
+
+.faq-header :nth-child(2) {
+    font-weight: 600;
+    color: #363434;
+    font-size: 40px;
+}
+
+
+   
+
+.quest-card{
+    width: calc((100%/12)*12);
+    display: flex;
+    height: 40px;
+   
+}
+
+.question-list {
+    color: #363434;
+}
 
 
 
+.main-quest {
+    margin-left: 20px;
+}
+
+.main-quest :nth-child(1) {
+    color: #363434;
+}
 
 
+
+.reply {
+    width: calc((100%/12)*10);
+    height: 100px;
+    margin-left: 30px;
 
 
 }
+
+.quest-card .reply p{
+    width: inherit;
+
+}
+
+
+
+.faq-light{
+    
+    margin-top: 200px;
+}
+
+.question-list :nth-child(2) {
+    height: 390;
+}
+
+/* eighth section style*/
+
+.client{
+    background-color: #939597 !important;
+    height: 600px;
+
+}
+
+.client-container{
+    height: 500px;
+    
+
+
+}
+
+
+.client-content{
+    height: 400px;
+    margin: 0px auto;
+    width: 1000px;
+   
+    
+    
+
+}
+
+
+.client-letter{
+    height: 300px;
+    width: 900px;
+    margin: 0px auto;
+    flex-direction: column;
+   
+
+}
+
+.client-letter p {
+    font-size: larger;
+    margin: 0px 150px;
+    color: whitesmoke;
+    margin-top: 80px;
+}
+
+
+.owner-info{
+    height: 100px;
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.owner-info h6,span {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+}
+
+
+.owner-img{
+   
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.owner-img img {
+    width: 40%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.controls {
+    top: 60%;
+    
+    width: 100%;
+
+   
+}
+
+.controls button {
+    background: #c5c5c5;
+    border: none;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    color: white;
+    margin: 0px auto;
+    background-color: rgb(161, 157, 157);
+    cursor: pointer;
+    
+ 
+   
+}
+
+.controls i{
+    font-size: large;
+}
+
+/* contact style */
+
+.contact{
+    background-color: #f5df4d;
+
+
+}
+ 
+.contact-container{
+
+    display: flex;
+
+}
+
+.main-content{
+    width: calc((100%/12)*5);
+    padding-top: 60px;
+    margin-left: 115px;
+
+}
+
+.main-content h2{
+    margin: 0px;
+    color: black;
+    text-transform: lowercase;
+    font-size: xx-large;
+}
+
+.main-content :nth-child(2) {
+    font-weight: 300;
+    font-size: x-large;
+
+}
+
+.main-content h6{
+    margin: 0px;
+    font-size: larger;
+
+}
+
+.contact-info {
+    margin-top: 50px;
+    width: calc((100%/12)*12);
+
+}
+
+.contact-info i{
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+
+.contact-form{
+    width: calc((100%/12)*5);
+    padding-left: 70px;
+    padding-top: 60px;
+
+}
+
+.contact-form h2{
+    margin: 0px;
+    color: black;
+    text-transform: lowercase;
+    font-size: xx-large;
+}
+
+
+
