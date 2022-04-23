@@ -27,6 +27,16 @@
   .justify-content-space-between{
       justify-content: space-between;
   }
+
+  .main-color {
+      color: #f5df4d;
+  }
+
+.align-items-center {
+    align-items: center;
+}
+
+
   
   .head{
       
