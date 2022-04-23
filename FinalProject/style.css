@@ -724,11 +724,12 @@ font-size: medium;
 .client{
     background-color: #939597 !important;
     height: 600px;
+    width: 100%;
 
 }
 
 .client-container{
-    height: 500px;
+    height: inherit;
 
 }
 
