@@ -14,7 +14,7 @@ body{
 
 .box-container {
     margin: 0px auto;
-    width: 1125px;
+    max-width: 1349px;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -90,6 +90,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: center center;
+    max-width: 1349px;
    
    
 
@@ -104,9 +105,9 @@ body{
     }
 
 .container{
-   
+    width: 100%;
     margin: 0px auto;
-    width: 1341px;
+   
 }
 
 .container-base{
@@ -172,13 +173,13 @@ font-size: 20px;
 .main-nav {}
 
 .main-navbar{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
 
 .main-nav-content{
-    width: 1100px;
+    max-width: 1100px;
     margin: 0px auto;
     display: inline-block;
     height: 500px;
@@ -298,7 +299,7 @@ p2{
 
 
 .services-container{
- width: 1120px;
+ max-width: 1349px;
  height: 860px;
  margin: 0px auto;}
 
@@ -358,6 +359,7 @@ width: 70%;
 }
 
 .resume-container{
+    max-width: 1349px;
 
 
 
@@ -486,6 +488,7 @@ font-size: medium;
 
 
 .portfolio-container{
+    max-width: 1349px;
     height: 1200px;
 }
 .projects-container{
@@ -657,6 +660,7 @@ font-size: medium;
 
 .faq-container{
     height: 900px;
+    max-width: 1349px;
     
 }
 
@@ -730,6 +734,7 @@ font-size: medium;
 
 .client-container{
     height: inherit;
+    max-width: 1349px;
 
 }
 
@@ -828,7 +833,10 @@ font-size: medium;
 
 }
  
-.contact-containe{}
+.contact-container{
+    max-width: 1349px;
+}
+
 
 
 .main-content{
