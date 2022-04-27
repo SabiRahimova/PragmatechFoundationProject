@@ -177,6 +177,32 @@ lg- >1200px
 
 
 @media (max-width:576px) {
+
+
+
+
+  .box-menu {
+      display: none;
+  }
+ 
+ .box-menu-mobile {
+     display: block;
+     
+ }
+
+ .slider [
+    width: calc((100%/12)*12);
+ ]
+
+
+
+
+
+
+
+
+
+
     .main-navbar{
         margin: 0px;
     }

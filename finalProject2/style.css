@@ -1,0 +1,139 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    
+    
+    color: black;
+
+}
+
+
+.box-container {
+    margin: 0px auto;
+    max-width: 1349px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-name{
+   
+    width: 100px;
+    align-items: center;
+    padding: 0px 10px;
+   
+}
+.box-name span{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    
+}
+    
+.box-menu{
+    width: 1000px;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-between;
+}
+/* box-menu-main  style  */
+
+
+    .box-menu-main li a{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px;
+       
+    }
+   
+.underline:hover{
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width:  3px;
+    width: fit-content;
+    border-color: #f5df4e;
+    
+   }
+
+.underline{
+ 
+ transition: border;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in;
+  
+ 
+}
+
+/* box-menu-main style end*/
+
+.box-menu-social {
+    justify-content: space-between;
+    width: 100px;
+    font-size: larger;
+}
+
+      
+ .box-menu-social i:hover{
+     font-size: 25px;
+   
+ }
+    
+ /*  second section style start  */
+
+.slider-img {
+    height: 600px;
+    background-image: url(/project.images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center center;
+    width: 100%;
+    position: absolute;
+}
+.slider-effect {
+    background: rgb(0, 0, 0, 0.6) ;
+    height: inherit;
+    position: absolute;
+    width: 100%;
+}
+
+
+.slider-container{
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-content {
+display: flex;
+flex-direction: column;
+position: absolute;
+}
+
+.slider-content h1, h2{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.slider-content h1 {
+    font-size: 120px;
+    margin: 0px;
+    
+}
+
+.slider-button button {
+    background-color: #f5df4e;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: larger;
+
+}

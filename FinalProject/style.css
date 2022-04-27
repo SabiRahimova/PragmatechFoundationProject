@@ -36,12 +36,35 @@ body{
     
 }
     
-.box-menu{
+ .box-menu{
     width: 1000px;
     align-items: center;
     margin: 15px;
     justify-content: space-between;
 }
+
+
+
+ .box-menu-mobile li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+ }
+.box-menu-mobile {
+    display: none;
+}
+
+.box-menu-mobile .underline {
+    display: none;
+}
+
+.box-menu-mobile:hover .underline {
+    display: block;
+}
+
+
+
 /* box-menu-main  style  */
 
 
@@ -73,6 +96,12 @@ body{
 
 /* box-menu-main style end*/
 
+
+.box-menu-social {
+    width: 100px;
+    justify-content: space-between;
+    font-size: larger;
+}
 
 .box-menu-social i{
     padding: 10px;
