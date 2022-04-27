@@ -137,3 +137,74 @@ position: absolute;
     font-size: larger;
 
 }
+
+/* third section style*/
+.main-info {
+    margin-top: 50px;
+    padding: 20px 100px;
+}
+
+
+.main-info h2 {
+ font-size: 30px;
+ margin: 0px;
+ color: black;
+ text-transform: capitalize;
+}
+
+.main-info .col-8 {
+    padding: 0px 25px;
+}
+
+
+.back-yellow{
+    background-color: #f5df4e;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.experience span {
+    
+    font-size: 140px;
+    z-index: 2;
+    color: rgb(36, 36, 36);
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience h4{
+    margin: 0px;
+}
+
+
+.info-item {
+    
+    margin-top: 136px;
+    justify-content: space-around;
+    color: #989494;
+    margin-top: 50px;
+    
+}
+
+.info-item :nth-child(2) {
+    color: black;
+}
+
+ 
+
+
+
+
+
+
+
+
+
