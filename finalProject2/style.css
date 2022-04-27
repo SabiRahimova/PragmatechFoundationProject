@@ -245,8 +245,74 @@ position: absolute;
 
 }
 
+/* resume section style*/
+
+.resume-content h4{
+    font-weight: 600;
+    font-size: xx-large;
+}
 
 
 
+.edu-row {
+    margin-bottom: 20px;
+}
+
+.edu-row :nth-child(1) {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 0px;
+}
+   
+.edu-row :nth-child(2) {
+font-weight: 400;
+font-size: medium;
+
+
+}
+
+.edu-row :nth-child(3) {
+    font-size: 17px;
+    color: gray;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.item-detail{
+    width: 520px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 16px;
+    box-sizing: inherit;
+
+}
+
+.round{
+    border-radius: 16px;
+    background-color: #f5df4d;
+    box-sizing: inherit;
+    height: 10px;
+
+}
+
+.block-button{
+    width: 180px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.block-button button{
+    width: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    height: 50px;
+
+}
+
+.block-button  :hover{
+    background-color: black;
+    color: white;
+    transition: background-color 1s ease;
+}
 
 

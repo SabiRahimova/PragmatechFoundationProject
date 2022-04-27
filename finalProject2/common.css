@@ -71,10 +71,11 @@
   }
   
   .main-header{
-      width: 50%;
+      width: 60%;
    height: 10%;
    margin: 0px auto;
    padding-top: 60px;
+   margin-bottom: 40px;
   
   
   }
@@ -206,6 +207,10 @@
     color: #b1adad;
 }
 
+.fw-600 {
+    font-weight: 600;
+}
+
 .fw-500 {
     font-weight: 500;
 }
@@ -216,4 +221,8 @@
 
 .fw-400 {
     font-weight: 400;
+}
+
+.py-25 {
+    padding: 0px 25px;
 }
