@@ -28,9 +28,29 @@
       justify-content: space-between;
   }
 
+/* color style*/
+
   .main-color {
-      color: #f5df4d;
+      background-color: #f5df4d;
   }
+
+  .color-black{
+    color: black !important;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.gray {
+    color: rgb(47, 47, 47);
+}
+
+
+.border-yellow {
+    border-left: 4px solid #f5df4d;
+}
+
 
 .align-items-center {
     align-items: center;
@@ -96,9 +116,7 @@
       align-items: center;
   }
   
-  .color{
-      color: black;
-  }
+ 
   
   .width-65{ 
       width: 65%;
@@ -119,6 +137,16 @@
       width: 99%;
   }
   
+.w-150 {
+    width: 150px;
+}
+
+.w-fit {
+width: fit-content;
+}
+
+
+
   .margin-top-60 {
       margin-top: 62px;
   }
@@ -199,12 +227,20 @@
     font-size: xx-large;
 }
 
+
+
 .text-l {
     font-size: larger;
 }
 
 .gray{
     color: #b1adad;
+}
+
+/*text weight*/
+
+.w-100{
+    width: 100%;
 }
 
 .fw-600 {
@@ -225,4 +261,63 @@
 
 .py-25 {
     padding: 0px 25px;
+}
+
+.h-600{
+    height: 600px;
+}
+
+/*position style*/
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+
+
+
+/*  margin style*/
+
+.mx-10 {
+    margin: 0px 10px;
+}
+
+.m-top-60 {
+    margin-top: 60px;
+}
+
+.m-bottom-40{
+    margin-bottom: 40px;
+}
+
+
+.h-inherit {
+    height: inherit;
+}
+
+.h-50{
+    height: 50px;
+}
+
+.border-none {
+    border: none;
+
+}
+
+/*padding stye */
+
+.px-10{
+    padding: 0px 10px;
+}
+
+
+.p-left-35 {
+    padding-left: 35px;
+}
+
+.p-30 {
+    padding: 30px;
 }
