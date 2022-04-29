@@ -34,6 +34,11 @@
       background-color: #f5df4d;
   }
 
+
+.back-black {
+    background-color: black;
+}
+
   .color-black{
     color: black !important;
 }
@@ -43,12 +48,21 @@
 }
 
 .gray {
-    color: rgb(47, 47, 47);
+    color: #939597 
+}
+
+.back-gray {
+    background-color: #939597 
 }
 
 
+
+.color-white {
+    color: white;
+}
+
 .border-yellow {
-    border-left: 4px solid #f5df4d;
+    border-left: 2px solid #f5df4d;
 }
 
 
@@ -219,6 +233,10 @@ width: fit-content;
 
 /* text styles */
 
+.text-unset {
+    font-size: unset;
+}
+
 .text-xl {
     font-size:x-large
 }
@@ -227,6 +245,9 @@ width: fit-content;
     font-size: xx-large;
 }
 
+.text-center {
+    text-align: center;
+}
 
 
 .text-l {
@@ -259,6 +280,10 @@ width: fit-content;
     font-weight: 400;
 }
 
+py-15 {
+    padding: 0px 15px;
+}
+
 .py-25 {
     padding: 0px 25px;
 }
@@ -281,6 +306,10 @@ width: fit-content;
 
 /*  margin style*/
 
+.m-0{
+    margin: 0px;
+}
+
 .mx-10 {
     margin: 0px 10px;
 }
@@ -289,8 +318,16 @@ width: fit-content;
     margin-top: 60px;
 }
 
+.m-right-60 {
+    margin-right: 60px;
+}
+
 .m-bottom-40{
     margin-bottom: 40px;
+}
+
+.m-auto {
+    margin: 0px auto;
 }
 
 
@@ -309,6 +346,7 @@ width: fit-content;
 
 /*padding stye */
 
+
 .px-10{
     padding: 0px 10px;
 }
@@ -320,4 +358,8 @@ width: fit-content;
 
 .p-30 {
     padding: 30px;
+}
+
+.p-top-60 {
+    padding-top: 60px;
 }
