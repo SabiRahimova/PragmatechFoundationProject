@@ -69,6 +69,32 @@ body{
   
  
 }
+/* mobile style */
+.box-menu-mobile li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+ }
+.box-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.box-menu-mobile .underline {
+    display: none;
+}
+
+.box-menu-mobile:hover .underline {
+    display: block;
+}
+
+
+
+
+
+
 
 /* box-menu-main style end*/
 
