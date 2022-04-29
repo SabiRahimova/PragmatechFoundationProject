@@ -4,20 +4,11 @@ body{
 }
 
 .box{
-    
-    
-    color: black;
+     color: black;
 
 }
 
 
-.box-container {
-    margin: 0px auto;
-    max-width: 1349px;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .box-name{
    
@@ -85,13 +76,9 @@ body{
 .box-menu-mobile .underline {
     display: none;
 }
-
 .box-menu-mobile:hover .underline {
     display: block;
 }
-
-
-
 
 
 

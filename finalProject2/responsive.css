@@ -175,7 +175,12 @@ lg- >1200px
 @media (max-width:576px) {
 
 
-  
+  .box {
+      height: 75px;
+  }
+
+
+
 
     .box-menu {
         display: none;
@@ -188,11 +193,40 @@ lg- >1200px
  .container {
      display: block;
      
+
  }
 
+ .slider-content {
+     margin-top: 20px;
+ }
 
+ .slider-img, .slider-effect {
+     height: 100%;
+ }
 
+ .slider-content h1{
+     font-size: x-large;
+ }
 
+ .slider-content h2{
+     margin: 0px;
+ }
+
+  .main-header {
+      width: auto;
+  }
+
+ .main-info, .info-item, .service-row, .resume-content, .progress-bar {
+     flex-direction: column;
+ }
+
+ .service {
+     height: 2100px;
+ }
+
+.resume {
+    height: 3500px;
+}
 
 
 
