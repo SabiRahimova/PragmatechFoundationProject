@@ -196,6 +196,14 @@ lg- >1200px
 
  }
 
+ .main-header {
+     width: 100%;
+ }
+
+ .header {
+     text-align: center;
+ }
+
  .slider-content {
      margin-top: 20px;
  }
@@ -227,6 +235,20 @@ lg- >1200px
 .resume {
     height: 3500px;
 }
+
+  .project-content {
+      grid-template-columns: 1fr;
+  }
+
+.file-card {
+    height: 100%;
+}
+
+ .portfolio {
+     height: 3200px;
+ }
+ 
+
 
 
 
