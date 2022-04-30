@@ -172,6 +172,130 @@ lg- >1200px
 }
 
 
+
+@media (max-width:320px) {
+
+
+    html {
+        font-size: 15px;
+    }
+   
+     .box {
+         height: 75px;
+         width: 35.5rem;
+     }
+   
+     .container {
+         width: 35.5rem;
+         height: 100%;
+     }
+   
+     .slider-box {
+         width: 35.5rem;
+         height: 100vh;
+     }
+
+     .slider-img, .slider-effect {
+         width: 35.5rem;
+     }
+   
+     .slider-content p{ margin: 0px;}
+   
+       .box-menu {
+           display: none;
+       }
+      
+      .box-menu-mobile {
+          display: block;
+          
+      }
+    
+   
+    .main-header {
+        width: 100%;
+    }
+   
+    .header {
+        text-align: center;
+        font-size: 2rem;
+    }
+   
+    .slider-content {
+        margin-top: 20px;
+       
+    }
+   
+    .slider-img, .slider-effect {
+        height: 100%;
+    }
+   
+    .slider-content h1{
+        font-size: x-large;
+    }
+   
+    .slider-content h2 p{
+        margin: 0px;
+    }
+
+    .resume, .service, .resume, .file, .file-card, .img-file, .img-effect, .client, .footer, .file-content {
+        width: 35.5rem;
+    }
+
+    .edu-row {
+        width: 34rem;
+    }
+   
+     .main-header {
+         width: auto;
+     }
+   
+    .main-info, .info-item, .service-row, .resume-content, .progress-bar, .menu-items, .faq-content, .contact-content, .footer-content {
+        flex-direction: column ;
+    }
+   
+    .main-info p {
+        font-size: 1rem;
+    }
+   
+   
+    .service-row p{
+        font-size: 1rem;
+    }
+    .service-row i{
+        font-size: 3rem;
+    }
+   
+     .project-content {
+         grid-template-columns: 1fr;
+     }
+   
+    
+   
+   .file-card {
+       height: 100%;
+   }
+   
+    .client {
+        padding: 0px;
+    }
+    
+    .client-row {
+        margin-top: 0px;
+    }
+    
+   
+    .client .container h{
+   
+    }
+   
+   
+   
+   }
+
+
+
+
+
 @media (max-width:576px) {
 
  html {
@@ -193,11 +317,7 @@ lg- >1200px
        display: block;
        
    }
- .container {
-     display: block;
-     
-
- }
+ 
 
  .main-header {
      width: 100%;
@@ -210,6 +330,7 @@ lg- >1200px
 
  .slider-content {
      margin-top: 20px;
+    
  }
 
  .slider-img, .slider-effect {
@@ -220,7 +341,7 @@ lg- >1200px
      font-size: x-large;
  }
 
- .slider-content h2{
+ .slider-content h2 p{
      margin: 0px;
  }
 
