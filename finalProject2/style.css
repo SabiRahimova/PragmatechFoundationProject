@@ -101,6 +101,10 @@ body{
     
  /*  second section style start  */
 
+ .slider-box {
+     width: 100%;
+ }
+
 .slider-img {
     height: 600px;
     background-image: url(/project.images/intro-bg.jpg);
