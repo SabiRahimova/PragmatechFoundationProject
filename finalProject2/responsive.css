@@ -232,9 +232,7 @@ lg- >1200px
      height: 2100px;
  }
 
-.resume {
-    height: 3500px;
-}
+
 
   .project-content {
       grid-template-columns: 1fr;
@@ -244,9 +242,7 @@ lg- >1200px
     height: 100%;
 }
 
- .portfolio {
-     height: 3200px;
- }
+ 
  
 
 
